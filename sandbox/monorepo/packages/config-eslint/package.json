@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo/config-eslint",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "settings 의 ESLint 프리셋을 이 모노레포용으로 감싼 패키지",
+  "main": "./base.js",
+  "exports": {
+    ".": "./base.js",
+    "./base": "./base.js",
+    "./react": "./react.js",
+    "./next": "./next.js"
+  },
+  "files": [
+    "base.js",
+    "react.js",
+    "next.js"
+  ],
+  "dependencies": {
+    "@byuckchon-frontend/settings": "^1.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": ">=5.0.0"
+  }
+}

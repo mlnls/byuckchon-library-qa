@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node (scripts)",
+  "extends": "@byuckchon-frontend/settings/tsconfig/node.json"
+}

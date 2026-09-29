@@ -1,0 +1,50 @@
+{
+  "$schema": "https://byuckchon.dev/bc.schema.json",
+  "ai": {
+    "model": null
+  },
+  "design": {
+    "figma": null,
+    "figmaTokenEnv": "FIGMA_TOKEN"
+  },
+  "api": {
+    "openapi": null,
+    "baseUrl": null
+  },
+  "context": {
+    "include": [
+      "src/**/*.{ts,tsx,js,jsx}",
+      "bc.config.json"
+    ],
+    "exclude": [
+      "**/*.test.*",
+      "**/__mocks__/**",
+      "node_modules/**",
+      "dist/**"
+    ],
+    "maxFiles": 20
+  },
+  "docs": [
+    "src/api/api-codegen.md"
+  ],
+  "framework": "react",
+  "detected": {
+    "language": "ts",
+    "styling": {
+      "tailwind": true,
+      "cssModules": false,
+      "styledComponents": false,
+      "emotion": false,
+      "vanillaExtract": false
+    },
+    "packageManager": "npm",
+    "routing": null,
+    "componentDirs": [
+      "src/components"
+    ],
+    "designTokensFiles": [],
+    "hasStorybook": false,
+    "hasTests": null,
+    "detectedAt": "2026-09-29T05:45:22.046Z"
+  }
+}

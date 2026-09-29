@@ -1,0 +1,6 @@
+# pnpm workspace 정의
+# - apps/*     : 배포 대상 (React/Next 앱)
+# - packages/* : 내부 공유 패키지 (@monorepo/*)
+packages:
+  - "apps/*"
+  - "packages/*"

@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Library (packages/*)",
+  "extends": "@byuckchon-frontend/settings/tsconfig/library.json"
+}

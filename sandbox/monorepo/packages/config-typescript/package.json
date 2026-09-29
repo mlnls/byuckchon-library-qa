@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/config-typescript",
+  "version": "0.0.0",
+  "private": true,
+  "description": "settings 의 TypeScript 프리셋을 이 모노레포용으로 감싼 패키지",
+  "files": [
+    "base.json",
+    "library.json",
+    "react.json",
+    "next.json",
+    "node.json"
+  ],
+  "dependencies": {
+    "@byuckchon-frontend/settings": "^1.8.0"
+  }
+}

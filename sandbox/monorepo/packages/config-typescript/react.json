@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Web (Vite)",
+  "extends": "@byuckchon-frontend/settings/tsconfig/react.json"
+}
