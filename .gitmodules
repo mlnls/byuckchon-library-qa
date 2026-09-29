@@ -1,0 +1,6 @@
+[submodule "lib/byuckchon-frontend-cli"]
+	path = lib/byuckchon-frontend-cli
+	url = https://github.com/RevolutionaryWarrior/byuckchon-frontend-cli.git
+[submodule "lib/byuckchon-frontend-packages"]
+	path = lib/byuckchon-frontend-packages
+	url = https://github.com/RevolutionaryWarrior/byuckchon-frontend-packages.git
