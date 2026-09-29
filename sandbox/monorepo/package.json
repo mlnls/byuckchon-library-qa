@@ -20,7 +20,8 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,cjs,json,md,yml,yaml}\" --ignore-path .gitignore",
     "clean": "turbo run clean && rm -rf node_modules .turbo",
     "preinstall": "npx only-allow pnpm",
-    "web": "pnpm --filter @monorepo/web dev"
+    "web": "pnpm --filter @monorepo/web dev",
+    "admin": "pnpm --filter @monorepo/admin dev"
   },
   "devDependencies": {
     "@byuckchon-frontend/settings": "^1.8.0",
